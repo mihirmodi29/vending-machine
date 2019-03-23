@@ -78,5 +78,6 @@ I would like to thank Prof. Klavins for the awesome coursework material.
 
 References
 ---
-https://github.com/klavinslab/elma_project
-https://github.com/klavins/ECEP520
+- https://github.com/klavinslab/elma_project
+
+- https://github.com/klavins/ECEP520
