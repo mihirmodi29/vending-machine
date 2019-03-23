@@ -87,3 +87,8 @@ References
 - https://github.com/klavinslab/elma_project
 
 - https://github.com/klavins/ECEP520
+
+License
+===
+
+This software is open source and uses the MIT license. Details can be found [here](https://github.com/mihirmodi29/vending-machine).
