@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['offstate',['OffState',['../classstopwatch_1_1OffState.html#a421aa693834d809dfb2e39ec3bd3cc2e',1,'stopwatch::OffState']]],
-  ['onstate',['OnState',['../classstopwatch_1_1OnState.html#a247e867c94f178ca06be04de762dbe52',1,'stopwatch::OnState']]]
+  ['idlestate',['IdleState',['../classvendingmachine_1_1IdleState.html#aaa8596ddf736aa6b2d15d7893a260994',1,'vendingmachine::IdleState']]]
 ];

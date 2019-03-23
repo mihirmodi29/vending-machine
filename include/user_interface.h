@@ -3,35 +3,32 @@
 #include <vector>
 #include <ncurses.h>
 
-#include "stopwatch.h"
+#include "vendingmachine.h"
 
-namespace stopwatch {
+namespace vendingmachine {
 
     using namespace std::chrono;
     using namespace elma;
-    using namespace stopwatch;
+    using namespace vendingmachine;
 
-    //! A user interface for the a StopWatch object
+    //! A user interface for the a VendingMachine object
     class UserInterface : public Process {
 
         public:
 
-        //! Create a new stopwatch user interface using curses
-        //! \param sw A reference to a StopWatch object
-        UserInterface(StopWatch& sw);
+        //! Create a new vendingmachine user interface using curses
+        //! \param sw A reference to a VendingMachine object
+        UserInterface(VendingMachine& vm);
 
         void init() {}
         void start() {}
-
-        //! Display the time at the given x,y position on the screen
-        void show_time(int x, int y, high_resolution_clock::duration d);
 
         //! Update the user interface by (a) reading keyboard input and (b) writing to the screen
         void update();
         void stop() {}
 
         private:
-        StopWatch& _stopwatch;
+        VendingMachine& _vendingmachine;
 
     };
 

@@ -3,25 +3,10 @@
 #include <string>
 #include <chrono>
 #include "gtest/gtest.h"
-#include "stopwatch.h"
 
 namespace {
  
     using namespace elma;
     using namespace stopwatch;
-
-    TEST(StopWatch,Construction) { 
-        StopWatch sw; 
-        Manager m;
-        m.schedule(sw,10_ms)
-          .init()
-          .start();
-        ASSERT_EQ("off", sw.current().name());
-    }
-
-    // More tests go here. You should aim to test every
-    // method of every object, either directly or indirectly,
-    // although testing user interfaces is notoriously 
-    // difficult.
 
 }

@@ -3,20 +3,20 @@
 #include <vector>
 #include <ncurses.h>
 
-#include "stopwatch.h"
+#include "vendingmachine.h"
 
 using namespace std::chrono;
 using namespace elma;
-using namespace stopwatch;
+using namespace vendingmachine;
 
 int main() {
 
     Manager m;
-    StopWatch stopwatch;
-    UserInterface ui(stopwatch);
+    VendingMachine vendingmachine;
+    UserInterface ui(vendingmachine);
 
     m.schedule(ui, 10_ms)
-     .schedule(stopwatch, 10_ms)     
+     .schedule(vendingmachine, 10_ms)     
      .init()
      .run();
 

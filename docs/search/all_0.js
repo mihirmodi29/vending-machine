@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin',['begin',['../classstopwatch_1_1StopWatch.html#a0fb3ab295580a7d29d55ca52b41f6294',1,'stopwatch::StopWatch']]]
+  ['add',['add',['../classvendingmachine_1_1VendingMachine.html#adb155d1b8c4b34336b57c19d89a2409a',1,'vendingmachine::VendingMachine']]]
 ];
