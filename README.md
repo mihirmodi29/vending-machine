@@ -1,4 +1,4 @@
-Example Elma Project
+Vending Machine (ELMA Project)
 ===
 
 [Elma](https://github.com/mihirmodi29/elma) is an event loop manager designed to teach embedded and reactive systems programming. This repository contains an example Vending Machine, showing how to use many Elma features, as well as illustrating how to arrange the files and directories in an Elma project.
