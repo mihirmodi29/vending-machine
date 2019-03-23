@@ -18,6 +18,8 @@ void ReadyState::exit(const Event& e) {
     }else if ( e.name() == "$1.0" ){
         vendingmachine().add(1.0);
     }else if ( e.name() == "coin_return" ){
+        clear();
+        mvprintw(5,1,"Return Change: $%lf", vendingmachine().value());
         vendingmachine().set_value(0);
     } else if ( e.name() == "snack" ){
             clear();
