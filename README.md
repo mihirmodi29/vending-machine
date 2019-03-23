@@ -56,7 +56,7 @@ State Machine:
  |         |                No   |           |        |         |
  +---------+                     +-----------+        +---------+
  
- ![](images/StateMachine.png)
+ ![](images/StateMachine.PNG)
  
 
 
