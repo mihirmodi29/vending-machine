@@ -8,8 +8,8 @@ The source code for this project is available [on github](https://github.com/mih
 Installation
 ---
 
-    git clone https://github.com/klavinslab/elma_project.git
-    cd elma_project
+    git clone https://github.com/mihirmodi29/vending-machine
+    cd vending-machine
     docker run -v $PWD:/source -it klavins/elma:latest bash
     make
     make docs
