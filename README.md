@@ -38,8 +38,9 @@ Architecture
 State Machine: 
 
  The state machine shown in the diagram below for a vending machine. 
-    -   The initial state of the state machine is IDLE
-    -   Unexpected input will not cause a state transition
+ 
+ - The initial state of the state machine is IDLE.
+ - Unexpected input will not cause a state transition.
  
  ![](images/StateMachine.PNG)
  
