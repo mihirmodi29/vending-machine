@@ -35,7 +35,26 @@ The vendingmachine is controlled via the keyboard, via these keys:
 
 Architecture
 ---
-Describe how your project was designed, what choices you made, how things are organized, etc.
+State Machine: 
+
+ The state machine shown in the diagram below for a vending machine. 
+    -   The initial state of the state machine is IDLE
+    -   The function should output the current state of the state machine
+    -   Unexpected input should not cause a state transition
+
+
+    COIN ($0.25, $0.50, $1.0)      +---------+
+   +------------------------------>|         |   BUTTON (Snack, Water , Juice)
+   |                               |  READY  | -----------+       
+   |    COIN_RETURN                |         |            |
+   |   +-------------------------- +---------+            |
+   |   |                               ^                  |
+   |   V                               | Yes              V
+ +---------+                     +-----------+        +---------+
+ |         |   VEND_COMPLETE     | Do You    |        |         |
+ |  IDLE   |<--------------------| Want More?|<-------| VENDING |
+ |         |                No   |           |        |         |
+ +---------+                     +-----------+        +---------+
 
 Results
 ---
