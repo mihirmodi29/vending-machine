@@ -19,20 +19,19 @@ Execution
 ---
 To run the stopwatch, type
 
-    bin/stopwatch
+    bin/vendingmachine
 
-The stopwatch is controlled via the keyboard, via these keys:
-- **s**: Start or stop
-- **l**: Lap
-- **r**: Reset
+The vendingmachine is controlled via the keyboard, via these keys:
+- **a**: Add coin $0.25
+- **b**: Add coin $0.50
+- **c**: Add coin $1.0
+- **r**: Return the money back to customer
+- **1**: Select snack
+- **2**: Select water
+- **3**: Select juice
+- **y**: Select Yes
+- **n**: Select No
 - **q**: Quit
-
-Testing
----
-To run tests, do
-```bash
-bin/test
-```
 
 Architecture
 ---
