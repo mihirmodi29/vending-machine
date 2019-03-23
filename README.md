@@ -52,17 +52,31 @@ State Machine:
  
  ![](images/StateMachine.PNG)
  
-
-
-
 Results
 ---
-Describe the results of testing and running your code. Include visuals when possible.
+IDLE State:
+ ![](images/IDLE.PNG)
 
+READY State (When customer enters amount):
+ ![](images/READY.PNG)
+ 
+ VENDING State (When customer selects the product):
+ ![](images/VENDING.PNG)
+
+ READY State (When customer wants more product):
+ ![](images/Yes.PNG)
+ 
+ IDLE State (When customer is done with purchasing):
+ ![](images/Vend_complete.PNG)
+ 
+ READY State (When customer inputs less amount than the products price):
+ ![](images/LessAmount.PNG)
+ 
 Acknowledgements
 ---
-Mention anyone who helped you and how.
+I would like to thank Prof. Klavins for the awesome coursework material. 
 
 References
 ---
-List all libraries, articles, stack overflow answers, etc. that you used to get your code working.
+https://github.com/klavinslab/elma_project
+https://github.com/klavins/ECEP520
